@@ -1,8 +1,96 @@
+
 <!DOCTYPE html>
 <html>
 <head>
   <title>Home</title>
-
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+  <style>
+  body {
+    background-color: black;
+    color: white;
+  }
+  #content {
+    background-image: url("commandline.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    top: 20%;
+    width: 60%;
+    height: 300px;
+    left: 20%;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+  }
+  </style>
 </head>
-<body></body>
+<body>
+<code id="code">
+&gt;&gt;&gt;
+</code>
+<div id="content">
+<br>
+<br>
+Welcome to my website...<br><br>
+My projects:<br>
+1. <a href="GavinMcWhinnie.github.io">one</a><br>
+2. <a href="GavinMcWhinnie.github.io">two</a><br>
+
+</div>
+</body>
+<script>
+body = document.getElementsByTagName('body')
+//window.onload = body.addEventListener("onkeydown", myfunc(event));
+code = document.getElementById('code');
+
+var lines = ["&gt;&gt;&gt; Welcome to my website...<br>", '&gt;&gt;&gt; type "help" to see options<br>'];
+var line = "";
+
+window.onload =  update_code()
+window.onkeydown = function myfunc(event) {
+  if (event.key == "Backspace") {
+    if (line.length > 0) {
+      line = line.slice(0, -1);
+    } else {
+      lines.pop()
+    }
+  }
+  else if (event.key == "Enter") {
+    lines.push("&gt;&gt;&gt; "+line+"<br>");
+    if (line == "help") {
+      lines.push("Commands:<br>");
+      lines.push("1 - help: displays this message<br>");
+      lines.push("2 - hack: hacks my webpage<br>");
+      lines.push("3 - tictac: plays tic-tac-toe<br>");
+      lines.push("4 - jazz: plays jazz music<br>");
+    }
+    if (line == "jazz") {
+      lines.push("♩ ♪ ♫ ♬ ♭ ♮ ♯<br>")
+    }
+    if (line == "hack") {
+      lines.push("Hacking in process...<br>")
+    }
+    if (line == "tictac") {
+      lines.push("_|_|_<br>");
+      lines.push("_|_|_<br>");
+      lines.push("&nbsp;| | <br>");
+    }
+    line = "";
+  }
+  else {
+    line += event.key
+  }
+  update_code();
+}
+
+function update_code() {
+  var total_code = ""
+  for (i = 0; i<lines.length; i++) {
+    total_code += lines[i];
+  }
+  total_code += "&gt;&gt;&gt; "+line;
+  code.innerHTML = total_code;
+}
+</script>
 </html>
