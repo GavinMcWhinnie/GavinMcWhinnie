@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Base</title>
+  <link rel="icon" href="graphics/cube.png" type="image/x-icon"/>
+  <link rel="shortcut icon" href="graphics/cube.png" type="image/x-icon"/>
+  <link rel="stylesheet" type="text/css" href="css.css">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+</head>
+</body>
+
+<header>
+  <a href="index.html">
+    <span>
+      <img src="graphics/cube.svg"/>
+      Base
+    </span>
+  </a>
+  <img src="graphics/menu_button.png" id="menu_button">
+</header>
+
+<main>
+
+<section id="options">
+  <a href="programming.html">
+    <div class="section">
+      <img src="graphics/blue_section3.svg" class="section_img" title="Programming"/>
+      <img src="graphics/py.png" id="python"/>
+      <img src="graphics/c++.png" id="cpp"/>
+      <img src="graphics/nasm3.png" id="nasm"/>
+      <p>Programming</p>
+    </div>
+  </a>
+  <a href="programming.html">
+    <div class="section">
+      <img src="graphics/red_section3.svg" class="section_img" title="Web Design"/>
+      <img src="graphics/html-css.svg" id="html-css"/>
+      <img src="graphics/javascript.jpg" id="javascript">
+      <p>Web Design</p>
+    </div>
+  </a>
+  <a href="programming.html">
+    <div class="section">
+      <img src="graphics/green_section3.svg" class="section_img" title="Miscellaneous"/>
+      <img src="graphics/open_box.svg" id="unknown"/>
+      <p>Miscellaneous</p>
+    </div>
+  </a>
+</section>
+<hr>
+
+</main>
+
+
+<div id="scroll">
+  Click to scroll down:
+  <img src="graphics/scroll_down.png"/>
+</div>
+
+<img src="graphics/hex_left.svg" id="hex_left"/>
+<img src="graphics/hex_right.svg" id="hex_right"/>
+
+<script>
+hex_left = document.getElementById('hex_left');
+hex_right = document.getElementById('hex_right');
+scroll_button = document.getElementById('scroll');
+
+window.onscroll = function () {
+  scroll = window.scrollY;
+  scroll_button.style.opacity = 1- (scroll / 200);
+  /*
+  if (scroll < 800) {
+    hex_left.style.left = (-Math.pow(scroll,3)/500000) + 'px';
+    hex_right.style.right = (-Math.pow(scroll,3)/500000) + 'px';
+  } else {
+    hex_left.style.left = '-500px';
+    hex_right.style.right = '-500px';
+  }
+  */
+  if (scroll < 800) {
+    hex_left.style.left = (-scroll) + 'px';
+    hex_right.style.right = (-scroll) + 'px';
+  } else {
+    hex_left.style.left = '-500px';
+    hex_right.style.right = '-500px';
+  }
+
+}
+
+</script>
+
+</body>
+</html>

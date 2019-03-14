@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="469.159"
+   height="525.86938"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.44.1"
+   sodipodi:docbase="C:\Documents and Settings\Molumen\Desktop"
+   sodipodi:docname="Jack123_Luca_Benazzi_1.svg"
+   version="1.0">
+  <defs
+     id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient2801">
+      <stop
+         style="stop-color:#f8f8f8;stop-opacity:1;"
+         offset="0"
+         id="stop2803" />
+      <stop
+         style="stop-color:#f8f8f8;stop-opacity:0;"
+         offset="1"
+         id="stop2805" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient16399">
+      <stop
+         style="stop-color:#ebebeb;stop-opacity:0;"
+         offset="1"
+         id="stop16403" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient11043">
+      <stop
+         style="stop-color:white;stop-opacity:1;"
+         offset="0"
+         id="stop11045" />
+      <stop
+         style="stop-color:white;stop-opacity:0;"
+         offset="1"
+         id="stop11047" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient15550">
+      <stop
+         style="stop-color:black;stop-opacity:1;"
+         offset="0"
+         id="stop15552" />
+      <stop
+         id="stop15558"
+         offset="0.98214287"
+         style="stop-color:black;stop-opacity:1;" />
+      <stop
+         style="stop-color:black;stop-opacity:0;"
+         offset="1"
+         id="stop15554" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient11117">
+      <stop
+         style="stop-color:#814b29;stop-opacity:1;"
+         offset="0"
+         id="stop11119" />
+      <stop
+         id="stop2872"
+         offset="0.5"
+         style="stop-color:#e5c2ad;stop-opacity:1;" />
+      <stop
+         style="stop-color:#814b29;stop-opacity:0;"
+         offset="1"
+         id="stop11121" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient10224">
+      <stop
+         style="stop-color:#b8804d;stop-opacity:1;"
+         offset="0"
+         id="stop10226" />
+      <stop
+         id="stop3759"
+         offset="0.5"
+         style="stop-color:#e0c8b1;stop-opacity:0.99029124;" />
+      <stop
+         style="stop-color:#b8804d;stop-opacity:0;"
+         offset="1"
+         id="stop10228" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient9331">
+      <stop
+         style="stop-color:#7e4d35;stop-opacity:1;"
+         offset="0"
+         id="stop9333" />
+      <stop
+         style="stop-color:#7e4d35;stop-opacity:0;"
+         offset="1"
+         id="stop9335" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient8438">
+      <stop
+         style="stop-color:#ba875d;stop-opacity:1;"
+         offset="0"
+         id="stop8440" />
+      <stop
+         id="stop6181"
+         offset="1"
+         style="stop-color:#f2e8e0;stop-opacity:1;" />
+      <stop
+         style="stop-color:#ba875d;stop-opacity:0;"
+         offset="1"
+         id="stop8442" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3108">
+      <stop
+         id="stop7551"
+         offset="0"
+         style="stop-color:#c9996a;stop-opacity:1;" />
+      <stop
+         style="stop-color:#c9996a;stop-opacity:0.49803922;"
+         offset="1"
+         id="stop16449" />
+      <stop
+         style="stop-color:#c9996a;stop-opacity:0;"
+         offset="1"
+         id="stop3112" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3108"
+       id="linearGradient3114"
+       x1="157.37756"
+       y1="436.16687"
+       x2="-47.920799"
+       y2="369.46411"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.028175,0,0,1.007386,269.272,5.872767)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient8438"
+       id="linearGradient8444"
+       x1="31.443008"
+       y1="446.00308"
+       x2="-29.926414"
+       y2="365.95978"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.010158,0,0,1.015674,271.3536,1.100812)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient9331"
+       id="linearGradient9337"
+       x1="120.36813"
+       y1="476.91455"
+       x2="75.104401"
+       y2="367.11154"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.021295,0,0,1.008251,270.7229,6.173066)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient10224"
+       id="linearGradient10230"
+       x1="59.719738"
+       y1="529.30731"
+       x2="151.40022"
+       y2="357.93253"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.022569,0,0,0.999971,272.2918,7.208778)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient11117"
+       id="linearGradient11123"
+       x1="159.38295"
+       y1="524.33258"
+       x2="-22.79311"
+       y2="427.87015"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.015748,0,0,1.010869,271.5776,2.49668)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient15550"
+       id="linearGradient15556"
+       x1="330.27856"
+       y1="428.99234"
+       x2="475.96555"
+       y2="428.99234"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.028175,0,0,1.007386,-10.33192,-1.372608)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient11043"
+       id="linearGradient11049"
+       x1="369.25159"
+       y1="453.81604"
+       x2="349.54254"
+       y2="501.25803"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient16399"
+       id="linearGradient16405"
+       x1="307.49902"
+       y1="449.36407"
+       x2="329.5"
+       y2="449.36407"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(0.25,0.75)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2801"
+       id="linearGradient2807"
+       x1="426.15332"
+       y1="462.36121"
+       x2="438.37885"
+       y2="483.36121"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient8438"
+       id="linearGradient1929"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.010158,0,0,1.015674,271.3536,1.100812)"
+       x1="31.443008"
+       y1="446.00308"
+       x2="-29.926414"
+       y2="365.95978" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3108"
+       id="linearGradient1931"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.028175,0,0,1.007386,269.272,5.872767)"
+       x1="157.37756"
+       y1="436.16687"
+       x2="-47.920799"
+       y2="369.46411" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient15550"
+       id="linearGradient1933"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.028175,0,0,1.007386,-10.33192,-1.372608)"
+       x1="330.27856"
+       y1="428.99234"
+       x2="475.96555"
+       y2="428.99234" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient9331"
+       id="linearGradient1935"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.021295,0,0,1.008251,270.7229,6.173066)"
+       x1="120.36813"
+       y1="476.91455"
+       x2="75.104401"
+       y2="367.11154" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient16399"
+       id="linearGradient1937"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(0.25,0.75)"
+       x1="307.49902"
+       y1="449.36407"
+       x2="329.5"
+       y2="449.36407" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient11043"
+       id="linearGradient1939"
+       gradientUnits="userSpaceOnUse"
+       x1="369.25159"
+       y1="453.81604"
+       x2="349.54254"
+       y2="501.25803" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient10224"
+       id="linearGradient1941"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.022569,0,0,0.999971,272.2918,7.208778)"
+       x1="59.719738"
+       y1="529.30731"
+       x2="151.40022"
+       y2="357.93253" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient11117"
+       id="linearGradient1943"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.015748,0,0,1.010869,271.5776,2.49668)"
+       x1="159.38295"
+       y1="524.33258"
+       x2="-22.79311"
+       y2="427.87015" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2801"
+       id="linearGradient1945"
+       gradientUnits="userSpaceOnUse"
+       x1="426.15332"
+       y1="462.36121"
+       x2="438.37885"
+       y2="483.36121" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="182.76306"
+     inkscape:cy="205.56746"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:showpageshadow="false"
+     inkscape:window-width="1281"
+     inkscape:window-height="978"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+        <dc:title>open cardboard box</dc:title>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>open</rdf:li>
+            <rdf:li>cardboard</rdf:li>
+            <rdf:li>box</rdf:li>
+            <rdf:li>beige</rdf:li>
+            <rdf:li>brown</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Livello 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-126.1515,-281.7962)">
+    <g
+       id="g1918"
+       transform="matrix(1.5845,0,0,1.5845,-210.8471,-318.3951)">
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Documents and Settings\Luca\Documenti\Immagini\Template\Prove\PaccoApertoconMonsterChef .png"
+         id="path2210"
+         d="M 237.79156,438.97116 L 227.95886,421.51566 L 300.25808,395.91426 L 329.75617,444.95731 L 329.17776,462.24518 L 237.79156,438.97116 z "
+         style="fill:url(#linearGradient1929);fill-opacity:1;fill-rule:evenodd;stroke:black;stroke-width:0.20258239;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Documents and Settings\Luca\Documenti\Immagini\Template\Prove\PaccoApertoconMonsterChef .png"
+         id="path2212"
+         d="M 329.25235,444.90537 L 427.19314,465.78019 L 469.25007,446.59879 L 479.04415,420.44783 L 349.41663,395.7962 L 329.25235,444.90537 z "
+         style="fill:url(#linearGradient1931);fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient1933);stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Documents and Settings\Luca\Documenti\Immagini\Template\Prove\PaccoApertoconMonsterChef .png"
+         id="path2214"
+         d="M 329.75827,444.28555 L 329.186,462.36418 L 366.38336,471.40349 L 394.99673,506.9958 L 427.61595,465.18896 L 329.75827,444.28555 z "
+         style="fill:url(#linearGradient1935);fill-opacity:1;fill-rule:evenodd;stroke:black;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Documents and Settings\Luca\Documenti\Immagini\Template\Prove\PaccoApertoconMonsterChef .png"
+         transform="matrix(0.893644,0.448776,-0.328606,0.944467,0,0)"
+         ry="0"
+         y="349.36755"
+         x="511.52298"
+         height="68.842102"
+         width="154.02151"
+         id="rect1902"
+         style="opacity:1;fill:#b5b5b5;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.44384339;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Documents and Settings\Luca\Documenti\Immagini\Template\Prove\PaccoApertoconMonsterChef .png"
+         id="path14603"
+         d="M 329.25,445.11218 C 307.75,455.61218 308.25,455.11218 308.25,455.11218"
+         style="opacity:0.06796115;fill:url(#linearGradient1937);fill-opacity:1;fill-rule:evenodd;stroke:black;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Documents and Settings\Luca\Documenti\Immagini\Template\Prove\PaccoApertoconMonsterChef .png"
+         id="path2206"
+         d="M 230.16614,437.32953 L 366.84131,469.50598 L 396.33703,506.30253 L 256.55367,472.41053 L 230.16614,437.32953 z "
+         style="fill:#a3693c;fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient1939);stroke-width:0.81099999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Documents and Settings\Luca\Documenti\Immagini\Template\Prove\PaccoApertoconMonsterChef .png"
+         id="path2204"
+         d="M 256.57504,472.31152 L 395.80935,505.93061 L 394.66339,662.25938 L 262.30484,619.45189 L 256.57504,472.31152 z "
+         style="fill:url(#linearGradient1941);fill-opacity:1;fill-rule:evenodd;stroke:#641a02;stroke-width:0.106;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Documents and Settings\Luca\Documenti\Immagini\Template\Prove\PaccoApertoconMonsterChef .png"
+         id="path2219"
+         d="M 395.41117,505.34523 L 460.55847,472.36217 L 456.91024,620.18465 L 394.36881,663.2347 L 395.41117,505.34523 z "
+         style="fill:url(#linearGradient1943);fill-opacity:1;fill-rule:evenodd;stroke:black;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Documents and Settings\Luca\Documenti\Immagini\Template\Prove\PaccoApertoconMonsterChef .png"
+         id="path2217"
+         d="M 395.40331,506.04016 L 459.76528,473.23032 L 493.35438,434.68225 L 422.05923,463.43304 L 395.40331,506.04016 z "
+         style="fill:#71472d;fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient1945);stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+  </g>
+</svg>

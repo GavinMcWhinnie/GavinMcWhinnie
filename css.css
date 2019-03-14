@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  font-family: 'PT Sans', sans-serif;
+  background-color: #f2f2f2;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/*header, logo and nav menu*/
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 60px;
+  background-color: white;
+  box-shadow: 2px 2px 10px grey;
+  z-index: 100;
+}
+
+header span {
+  position: relative;
+  height: 50%;
+  font-size: 0.8cm;
+  top: 20%;
+}
+
+header span img {
+  position: relative;
+  float: left;
+  height: 70%;
+  margin: 10px;
+}
+
+header #menu_button {
+  position: absolute;
+  height: 50%;
+  margin: 15px;
+  right: 0;
+  cursor: pointer;
+}
+
+main {
+  position: relative;
+  top: 100px;
+  height: 2000px;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+  background-color: white;
+  box-shadow: 0px 0px 10px grey;
+}
+
+main #options {
+  width: calc(100% - 40px);
+  padding: 20px;
+  background-color: white;
+}
+
+main #options .section {
+  position: relative;
+  display: inline-block;
+  width: 32%;
+  text-align: center;
+  font-size: 0.5cm;
+  cursor: pointer;
+}
+
+
+
+#programming {
+  position: absolute;
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+  font-size: 0.5cm;
+  margin: auto;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  main #options .section {
+    width: calc(100% - 20px);
+    height: 60px;
+    padding: 1px;
+    margin: 5px;
+    display: block;
+    box-shadow: 0px 0px 10px grey;
+  }
+  #hex_left, #hex_right {
+    display: none;
+  }
+  #options img {
+    display: none;
+  }
+}
+
+.section_img {
+  max-width: 100%;
+  opacity: 0.5;
+}
+
+/* tiny images */
+#python {
+  position: absolute;
+  max-width: 10%;
+  top: 15%;
+  left: 45%;
+}
+#cpp {
+  position: absolute;
+  max-width: 10%;
+  top: 35%;
+  left: 37%
+}
+#nasm {
+  position: absolute;
+  max-width: 10%;
+  top: 35%;
+  left: 50%;
+}
+#html-css {
+  position: absolute;
+  max-width: 20%;
+  top: 30%;
+  left: 40%;
+}
+#javascript {
+  position: absolute;
+  max-width: 10%;
+  top: 15%;
+  left: 42.5%;
+}
+#unknown {
+  position: absolute;
+  max-width: 15%;
+  top: 25%;
+  left: 42.5%;
+}
+
+#scroll {
+  position: absolute;
+  font-size: 0.5cm;
+  width: 20%;
+  bottom: 20%;
+  left: 40%;
+  text-align: center;
+  opacity: 1;
+}
+
+#scroll img {
+  position: absolute;
+  max-width: 10%;
+  top: 100%;
+  left: 45%;
+}
+
+/*cube graphics at side*/
+
+#hex_left {
+  max-width: 30%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+#hex_right {
+  max-width: 30%;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
