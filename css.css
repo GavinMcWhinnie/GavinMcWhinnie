@@ -80,7 +80,7 @@ main #options .section {
   cursor: pointer;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 750px) {
   main #options .section {
     width: calc(100% - 20px);
     height: 60px;
