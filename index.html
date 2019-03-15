@@ -51,7 +51,8 @@
   <button onclick='test();'>Test</button> 
   <script>
   test = function () {
-    alert(window.window.screen.availWidth);
+    var resolution = (window.window.screen.availWidth,window.window.screen.availHeight);
+    document.getElementsByTagName['button'][0].innerHTML = resolution;
   };
   </script>
   
