@@ -1,0 +1,35 @@
+body { margin: 0; background-color: white; font-family: Verdana, sans-serif; }
+
+.title_header { position: relative;	max-height: calc(100vh - 50px);	overflow: hidden; color: white;	background-color: rgb(0,0,0); }
+
+.background { width: 100%; display: block; opacity: 0.6; }
+
+.github_logo { opacity: 1; max-width: 35px;	display: inline; }
+
+.title { position: absolute; top: calc(50% - 25px); width: 100%; text-align: center; line-height: 10px;	font-size: 2em; }
+
+.subtitle {	text-align: center;	font-size: 0.5em; }
+
+.click_to_scroll { width: 100%;	position: absolute;	top: 80%; text-align: center; cursor: pointer; text-decoration: underline; }
+
+.nav { width: 100%;	z-index: 10; }
+
+.nav ul { list-style: none; text-align: center; margin: 0; padding-left: 0; background-color: #142952; }
+
+.nav ul li { display: block; height: 40px; line-height: 40px;	background-color: #142952; }
+
+.nav ul li:hover { background-color: grey; }
+
+.nav ul li a { text-decoration: none; color: white; }
+
+.nav_fixed { position: fixed; display: none; top: 0; }
+
+main { width: 60%; margin: auto; margin-top: 50px; padding: 100px; padding-top: 50px; font-family: Courier New, sans-serif; }
+
+section h1 { font-size: 8em; display: inline; line-height: 0.5em; }
+
+section h4 { font-size: 1em; display: inline; }
+
+@media screen and (min-width: 600px) {
+	.nav ul li { display: inline-block; width: 100px;	}
+}

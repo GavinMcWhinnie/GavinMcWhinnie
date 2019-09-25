@@ -1,132 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <title>Base</title>
-  <link rel="icon" href="graphics/cube.png" type="image/x-icon"/>
-  <link rel="shortcut icon" href="graphics/cube.png" type="image/x-icon"/>
-  <link rel="stylesheet" type="text/css" href="css.css">
-  <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+	<title>Github</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body class='fade'>
+<body>
+	
+	<header class="title_header">
+		<img src="images/nepal.jpg" class="background">
+		<span class="title">
+			Gavin McWhinnie
+			<p class="subtitle">student programmer</p>
+			<a href="https://www.github.com/GavinMcWhinnie"><img src="images/github_logo.png" class="github_logo"></a>
+		</span>
+		<div class="click_to_scroll">Click here to scroll down</div>
+	</header>
+	<nav class="nav">
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Projects</a></li>
+			<li><a href="#">Useful Stuff</a></li>
+			<li><a href="#">Other</a></li>
+		</ul>
+	</nav>
+	<nav class="nav nav_fixed">
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Projects</a></li>
+			<li><a href="#">Useful Stuff</a></li>
+			<li><a href="#">Other</a></li>
+		</ul>
+	</nav>
+	<main>
+		<section>
+			<h1>O</h1><h4>ne morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. "What's happened to me?" he thought. It wasn't a dream. His room, a proper human room although a little too small, lay peacefully between its four familiar walls. A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there hung a picture that he had recently cut out of an illustrated magazine and housed in a nice, gilded frame. It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer. Gregor then turned to look out the window at the dull weather. Drops of rain could be heard hitting the pane, which made him feel quite sad. "How about if I sleep a little bit longer and forget all this nonsense", he thought, but that was something he was unable to do because he was used to sleeping on his right, and in his present state couldn't get into that position. However hard he threw himself onto his right, he always rolled back to where he was. He must have tried it a hundred times, shut his eyes so that he wouldn't have to look at the floundering legs, and only stopped when he began to feel a mild, dull pain there that he had never felt before. "Oh, God", he thought, "what a strenuous career it is that I've chosen! Travelling day in and day out. Doing business like this takes much more effort than doing your own business at home, and on top of that there's the curse of travelling, worries about making train connections, bad and irregular food, contact with different people all the time so that you can never get to know anyone or become friendly with them. It can all go to Hell!" He felt a slight itch up on his belly; pushed himself slowly up on his back towards the headboard so that he could lift his head better; found where the itch was, and saw that it was covered with lots of little white spots which he didn't know what to make of; and when he tried to feel the place with one of his legs he drew it quickly back because as soon as he touched it he was overcome by a cold shudder. He slid back into his former position.
+			<img src="images/graph.png" style="width: 60%; margin: auto;"><br>
+			"Getting up early all the time", he thought, "it makes you stupid. You've got to get enough sleep. Other travelling salesmen live a life of luxury. For instance, whenever I go back to the guest house during the morning to copy out the contract, these gentlemen are always still sitting there eating their breakfasts. I ought to just try that with my boss; I'd get kicked out on the spot. But who knows, maybe that would be the best thing for me. If I didn't have my parents to think about I'd have given in my notice a long time ago, I'd have gone up to the boss and told him just what I think, tell him everything I would, let him know just what I feel. He'd fall right off his desk! And it's a funny sort of business to be sitting up there at your desk, talking down at your subordinates from up there, especially when you have to go right up close because the boss is hard of hearing. Well, there's still some hope; once I've got the money together to pay off my parents' debt to him - another five or six years I suppose - that's definitely what I'll do. That's when I'll make the big change. First of all though, I've got to get up, my train leaves at five." And he looked over at the alarm clock, ticking on the chest of drawers. "God in Heaven!" he thought. It was half past six and the hands were quietly moving forwards, it was even later than half past, more like quarter to seven. Had the alarm clock not rung? He could see from the bed that it had been set for four o'clock as it should have been; it certainly must have rung. Yes, but was it possible to quietly sleep through that furniture-rattling noise? True, he had not slept peacefully, but probably all the more deeply because of that. What should he do now? The next train went at seven; if he were to catch that he would have to rush like mad and the collection of samples was still not packed, and he did not at all feel particularly fresh and lively. And even if he did catch the train he would not avoid his boss's anger as the office assistant would have been there to see the five o'clock train go, he would have put in his report about Gregor's not being there a long time ago. The office assistant was the boss's man, spineless, and with no understanding. What about if he reported sick? But that would be extremely strained and suspicious as in fifteen years of service Gregor had never once yet been ill. His boss would certainly come round with the doctor from the medical insurance company, accuse his parents of having a lazy son, and accept the doctor's recommendation not to make any claim as the doctor believed that no-one was ever ill but that many were workshy. And what's more, would he have been entirely wrong in this case?</h4>
+		</section>
+		<footer>
+			<br><br>Written By Connor Munro
 
-<header>
-  <span onclick="goToPage('index.html');">
-    <img src="graphics/cube.svg"/>
-    Base
-  </span>
-  <img src="graphics/menu_button.png" id="menu_button" onclick="sideMenu('toggle');">
-</header>
+		</footer>
+	</main>
+	
 
-<aside>
-<ul>
-  <li>Programming</li>
-  <li>Web Design</li>
-  <li>Miscellaneous</li>
-</ul>
-</aside>
-<script type="text/javascript" src="sideMenu.js"></script>
-
-<main onclick="sideMenu('hide');">
-
-<section id="options">
-  <div class="section" onclick="goToPage('programming.html');">
-    <img src="graphics/blue_section3.svg" class="section_img" title="Programming"/>
-    <img src="graphics/py.png" id="python"/>
-    <img src="graphics/c++.png" id="cpp"/>
-    <img src="graphics/nasm3.png" id="nasm"/>
-    <p>Programming</p>
-  </div>
-
-  <div class="section" onclick="goToPage('webdesign.html');">
-    <img src="graphics/red_section3.svg" class="section_img" title="Web Design"/>
-    <img src="graphics/html-css.svg" id="html-css"/>
-    <img src="graphics/javascript.jpg" id="javascript">
-    <p>Web Design</p>
-  </div>
-
-  <div class="section" onclick="goToPage('miscellaneous.html');">
-    <img src="graphics/green_section3.svg" class="section_img" title="Miscellaneous"/>
-    <img src="graphics/open_box.svg" id="unknown"/>
-    <p>Miscellaneous</p>
-  </div>
-
-</section>
-
-<!--
-<section class='news'
-<hr>
-<br>
-<br>
-<h1>Monday Badminton News:</h1>
-<p>
-Coach Munro's (i.e. senior pupil connor munro, booncer munro, supreme leader munro) offical page is now open. <br>
-Don't worry connor this is only dummy text I'll think of something meaningful later. (or will I?) <br>
-Coach Munro offers coaching sessions after school at Balwearie High School on Mondays. It is very high quality <br>
-coaching as he has recieved many prizes and awards for his performance as a coach, leader and all-round <br>
-badminton superstar. Among these awards are: <br>
-<ul>
-  <li>Duke of Edinburgh</li>
-  <li>That's it</li>
-</ul>
-<br>
-<figure>
-  <img src='graphics\gymHall.jpg'/>
-  <figcaption>The Legendary Balwearie Gym Hall</figcaption>
-</figure>
-<br><br>
-We hope you can find time to come to coach's training sessions as currently there is a fine young squad of first <br>
-years which are being superbly coached, but coach would be happy to welcome many more... <br>
-Joining is free and is as easy as 1-2-3: <br>
-<ol>
-  <li>Prepare mentally, coach's sessions are tough</li>
-  <li>Get some gear, typically shorts, t-shirt and trainers</li>
-  <li>Come along to the sports hall after school on a Monday!</li>
-</ol>
-Hope to see along you soon! <br>
-<br>
-</p>
-</section>
-<section class='news'>
-<hr>
-<h1>Head Boy Competition News:</h1>
-<p>
-In other news, the stiff competition for head boy has been heating up. Ben MacDonald, the conservative favourite, (at least
-in his eyes) has been making declarative statements about his earliness. Max, however, has been making no such statements
-but has still been considered in the run for head boy in his quest to annoy Ben.<br><br>
-The only other competitor to be considered by the number 1 squad of Mr McNeil and crew is rich-kid John Millar. We highly doubt
-he will take home top prize, but who knows...
-</p>
-<figure>
-  <img src="graphics/ben.jpg"/>
-  <figcaption>Leading candidate BMD</figcaption>
-</figure>
-</section>
-<section class='news'>
-<hr>
-<br>
-<h1>MVP news!</h1>
-<p>MVP has officially saved 1 first year from being bullied! This first year is currently recovering in Mrs William's classroom
-and is expected to make a full recovery. We are still looking to recruit to help save more of the 1/6 of the Balwearie population
-that is being bullied.
-</p>
-</section>
--->
-
-
-</main>
-
-<div id='faded'></div>
-
-<div id="scroll" onclick="scrollDown();">
-  Click to scroll down:
-  <img src="graphics/scroll_down.png"/>
-</div>
-
-<img src="graphics/hex_left.svg" id="hex_left" class="slideLeft"/>
-<img src="graphics/hex_right.svg" id="hex_right" class="slideRight"/>
-
-<script type="text/javascript" src="index.js"></script>
-
-
+	<script type="text/javascript" src="scripts.js"></script>
 </body>
 </html>
