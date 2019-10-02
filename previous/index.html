@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Base</title>
+  <link rel="icon" href="graphics/cube.png" type="image/x-icon"/>
+  <link rel="shortcut icon" href="graphics/cube.png" type="image/x-icon"/>
+  <link rel="stylesheet" type="text/css" href="css.css">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+</head>
+<body class='fade'>
+
+<header>
+  <span onclick="goToPage('index.html');">
+    <img src="graphics/cube.svg"/>
+    Base
+  </span>
+  <img src="graphics/menu_button.png" id="menu_button" onclick="sideMenu('toggle');">
+</header>
+
+<aside>
+<ul>
+  <li>Programming</li>
+  <li>Web Design</li>
+  <li>Miscellaneous</li>
+</ul>
+</aside>
+<script type="text/javascript" src="sideMenu.js"></script>
+
+<main onclick="sideMenu('hide');">
+
+<section id="options">
+  <div class="section" onclick="goToPage('programming.html');">
+    <img src="graphics/blue_section3.svg" class="section_img" title="Programming"/>
+    <img src="graphics/py.png" id="python"/>
+    <img src="graphics/c++.png" id="cpp"/>
+    <img src="graphics/nasm3.png" id="nasm"/>
+    <p>Programming</p>
+  </div>
+
+  <div class="section" onclick="goToPage('webdesign.html');">
+    <img src="graphics/red_section3.svg" class="section_img" title="Web Design"/>
+    <img src="graphics/html-css.svg" id="html-css"/>
+    <img src="graphics/javascript.jpg" id="javascript">
+    <p>Web Design</p>
+  </div>
+
+  <div class="section" onclick="goToPage('miscellaneous.html');">
+    <img src="graphics/green_section3.svg" class="section_img" title="Miscellaneous"/>
+    <img src="graphics/open_box.svg" id="unknown"/>
+    <p>Miscellaneous</p>
+  </div>
+
+</section>
+
+<!--
+<section class='news'
+<hr>
+<br>
+<br>
+<h1>Monday Badminton News:</h1>
+<p>
+Coach Munro's (i.e. senior pupil connor munro, booncer munro, supreme leader munro) offical page is now open. <br>
+Don't worry connor this is only dummy text I'll think of something meaningful later. (or will I?) <br>
+Coach Munro offers coaching sessions after school at Balwearie High School on Mondays. It is very high quality <br>
+coaching as he has recieved many prizes and awards for his performance as a coach, leader and all-round <br>
+badminton superstar. Among these awards are: <br>
+<ul>
+  <li>Duke of Edinburgh</li>
+  <li>That's it</li>
+</ul>
+<br>
+<figure>
+  <img src='graphics\gymHall.jpg'/>
+  <figcaption>The Legendary Balwearie Gym Hall</figcaption>
+</figure>
+<br><br>
+We hope you can find time to come to coach's training sessions as currently there is a fine young squad of first <br>
+years which are being superbly coached, but coach would be happy to welcome many more... <br>
+Joining is free and is as easy as 1-2-3: <br>
+<ol>
+  <li>Prepare mentally, coach's sessions are tough</li>
+  <li>Get some gear, typically shorts, t-shirt and trainers</li>
+  <li>Come along to the sports hall after school on a Monday!</li>
+</ol>
+Hope to see along you soon! <br>
+<br>
+</p>
+</section>
+<section class='news'>
+<hr>
+<h1>Head Boy Competition News:</h1>
+<p>
+In other news, the stiff competition for head boy has been heating up. Ben MacDonald, the conservative favourite, (at least
+in his eyes) has been making declarative statements about his earliness. Max, however, has been making no such statements
+but has still been considered in the run for head boy in his quest to annoy Ben.<br><br>
+The only other competitor to be considered by the number 1 squad of Mr McNeil and crew is rich-kid John Millar. We highly doubt
+he will take home top prize, but who knows...
+</p>
+<figure>
+  <img src="graphics/ben.jpg"/>
+  <figcaption>Leading candidate BMD</figcaption>
+</figure>
+</section>
+<section class='news'>
+<hr>
+<br>
+<h1>MVP news!</h1>
+<p>MVP has officially saved 1 first year from being bullied! This first year is currently recovering in Mrs William's classroom
+and is expected to make a full recovery. We are still looking to recruit to help save more of the 1/6 of the Balwearie population
+that is being bullied.
+</p>
+</section>
+-->
+
+
+</main>
+
+<div id='faded'></div>
+
+<div id="scroll" onclick="scrollDown();">
+  Click to scroll down:
+  <img src="graphics/scroll_down.png"/>
+</div>
+
+<img src="graphics/hex_left.svg" id="hex_left" class="slideLeft"/>
+<img src="graphics/hex_right.svg" id="hex_right" class="slideRight"/>
+
+<script type="text/javascript" src="index.js"></script>
+
+
+</body>
+</html>
