@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Base</title>
+  <link rel="icon" href="graphics/cube.png" type="image/x-icon"/>
+  <link rel="shortcut icon" href="graphics/cube.png" type="image/x-icon"/>
+  <link rel="stylesheet" type="text/css" href="css.css">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+</head>
+<body class='fade'>
+
+<header>
+  <span onclick="goToPage('index.html');">
+    <img src="graphics/cube.svg"/>
+    Base
+  </span>
+  <img src="graphics/menu_button.png" id="menu_button" onclick="sideMenu('toggle');">
+</header>
+
+<aside>
+Memes
+</aside>
+<script type="text/javascript" src="sideMenu.js"></script>
+
+<main onclick="sideMenu('hide');">
+
+<div id="singlesection" onclick="goToPage('webdesign.html');">
+  <img src="graphics/red_section3.svg" class="section_img" title="Web Design"/>
+  <img src="graphics/html-css.svg" id="html-css"/>
+  <img src="graphics/javascript.jpg" id="javascript">
+  <p>Web Design</p>
+</div>
+
+
+<hr>
+
+</main>
+
+<script type="text/javascript" src="changePage.js"></script>
+
+</body>
+</html>
