@@ -63,7 +63,8 @@ header span img {
   position: relative;
   float: left;
   height: 70%;
-  margin: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 header #menu_button {
