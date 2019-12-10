@@ -45,7 +45,10 @@ click_to_scroll.onclick = function () {
 }
 
 var timing_function = function (x) {
-	return (x-x**2)/(42*(2*x**2-2*x+1)**2);
+	return (x-x**2)/(45*(2*x**2-2*x+1)**2);
+	//for desmos
+	//f\left(x\right)=\frac{\left(x-x^{2}\right)}{\left(2x^{2}-2x+1\right)^{2}}
+	//\frac{x^{2}}{x^{2}+\left(1-x\right)^{2}}
 }
 
 scroll_a_bit = function (start, destination) {

@@ -1,22 +1,25 @@
 body { margin: 0; background-color: white; font-family: Verdana, sans-serif; }
 
+a { text-decoration: none; }
+
 .title_header { position: relative;	max-height: calc(100vh - 50px);	overflow: hidden; color: white;	background-color: rgb(0,0,0); }
 
 .background { width: 100%; display: block; opacity: 0.6; }
 
-.github_logo { opacity: 1; max-width: 35px;	display: inline; }
+.github_logo { opacity: 1; max-width: 60px;	display: inline; }
 
-.title { position: absolute; top: calc(50% - 25px); width: 100%; text-align: center; line-height: 10px;	font-size: 2em; }
+.title { position: absolute; top: calc(50% - 25px); width: 100%; text-align: center; line-height: 10px;	font-size: 4em; }
 
 .subtitle {	text-align: center;	font-size: 0.5em; }
 
 .click_to_scroll { width: 100%;	position: absolute;	top: 80%; text-align: center; cursor: pointer; text-decoration: underline; }
+.click_to_scroll { display: none; }
 
-.nav { width: 100%;	z-index: 10; }
+.nav { width: 100%;	z-index: 10; font-size: 2em;}
 
 .nav ul { list-style: none; text-align: center; margin: 0; padding-left: 0; background-color: #142952; }
 
-.nav ul li { display: block; height: 40px; line-height: 40px;	background-color: #142952; }
+.nav ul li { display: block; height: 80px; line-height: 80px; background-color: #142952; }
 
 .nav ul li:hover { background-color: grey; }
 
@@ -24,12 +27,32 @@ body { margin: 0; background-color: white; font-family: Verdana, sans-serif; }
 
 .nav_fixed { position: fixed; display: none; top: 0; }
 
-main { width: 60%; margin: auto; margin-top: 50px; padding: 100px; padding-top: 50px; font-family: Courier New, sans-serif; }
+main { width: 60%; margin: auto; margin-top: 50px; padding-top: 50px; font-family: Courier New, sans-serif; }
 
+/*bruh huge h1*/
 section h1 { font-size: 8em; display: inline; line-height: 0.5em; }
+/* remove asap*/
 
-section h4 { font-size: 1em; display: inline; }
+section h4 { font-size: 3em; display: inline; }
 
-@media screen and (min-width: 800px) {
-	.nav ul li { display: inline-block; width: 100px;	}
+section h2 { font-size: 3em; }
+section p { font-size: 2.5em; }
+
+section .project_display { box-shadow: 2px 2px 7px black; padding: 20px; min-height: 100px; margin: 20px 0px 20px 0px; }
+section .project_display {  overflow: auto; color: black; }
+
+section .project_display img { float: none; display: block; width: 100%; padding-bottom: 20px; }
+
+@media only screen and (min-device-width: 800px) {
+	.github_logo { max-width: 35px; }
+	.title { font-size: 2em; }
+	.click_to_scroll { display: block; }
+	.nav { font-size: 1em; }
+	.nav ul li { height: 40px; line-height: 40px; }
+	.nav ul li { display: inline-block; width: 100px;}
+	section h4 { font-size: 1em; }
+	section h2 { font-size: 1em; }
+	section p { font-size: 1em; }
+	section .project_display img { float: none; display: block; width: 500px;}
+	section .project_display img { float: left; max-width: 50%; padding-right: 20px; }
 }
