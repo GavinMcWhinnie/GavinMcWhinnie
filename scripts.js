@@ -34,6 +34,7 @@ window.onscroll = function () {
 	} else {
 		hide_fixed_nav();
 	}
+	window.scrollTo(0,scroll);
 }
 
 var scroll_interval;
