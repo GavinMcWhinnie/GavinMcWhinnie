@@ -21,20 +21,35 @@ var hide_fixed_nav = function () {
 	nav_fixed.style.display = 'none';
 }
 
+desktop_page = true;
+
+function responsive(x) {
+  if (x.matches) {
+    desktop_page = true;
+  } else {
+    desktop_page = false;
+  }
+}
+
+var x = window.matchMedia("(min-device-width: 800px)")
+responsive(x)
+x.addListener(responsive)
+
 window.onscroll = function () {
-	var scroll = window.scrollY;
-	var opacity = 0.6-scroll/1500
-	if (opacity >= 0) {
-		background.style.opacity = opacity;
-	} else {
-		background.style.opacity = 0;
+	if (desktop_page) {
+		var scroll = window.scrollY;
+		var opacity = 0.6-scroll/1500
+		if (opacity >= 0) {
+			background.style.opacity = opacity;
+		} else {
+			background.style.opacity = 0;
+		}
+		if (scroll >= nav_offset) {
+			show_fixed_nav();
+		} else {
+			hide_fixed_nav();
+		}
 	}
-	if (scroll >= nav_offset) {
-		show_fixed_nav();
-	} else {
-		hide_fixed_nav();
-	}
-	window.scrollTo(0,scroll);
 }
 
 var scroll_interval;
