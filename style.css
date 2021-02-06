@@ -27,7 +27,7 @@ a { text-decoration: none; }
 
 .nav_fixed { position: fixed; display: none; top: 0; }
 
-main { width: 60%; margin: auto; margin-top: 50px; padding-top: 50px; font-family: Courier New, sans-serif; height: 10000px;}
+main { width: 60%; margin: auto; margin-top: 50px; padding-top: 50px; font-family: Courier New, sans-serif;}
 
 section {font-size: 15px;}
 /*bruh huge h1*/
@@ -46,6 +46,7 @@ section .project_display img { float: none; display: block; width: 100%; padding
 
 .interview_image { position: relative; max-width: 50%; left: 25%; margin-top: 20px;}
 
+.footer { margin-bottom: 50px; }
 
 @media only screen and (min-device-width: 800px) {
 	.github_logo { max-width: 35px; }
