@@ -27,7 +27,7 @@ a { text-decoration: none; }
 
 .nav_fixed { position: fixed; display: none; top: 0; }
 
-main { width: 60%; margin: auto; margin-top: 50px; padding-top: 50px; font-family: Courier New, sans-serif;}
+main { width: 60%; margin: auto; margin-top: 50px; padding-top: 50px; font-family: 'Lato', sans-serif;}
 
 section {font-size: 15px;}
 /*bruh huge h1*/
@@ -49,11 +49,12 @@ section .project_display img { float: none; display: block; width: 100%; padding
 .footer { margin-bottom: 50px; }
 
 @media only screen and (min-device-width: 800px) {
+	.title_header { height: auto; }
 	.github_logo { max-width: 35px; }
 	.title { font-size: 2em; }
 	.click_to_scroll { display: block; }
 	.nav { font-size: 1em; }
-	.nav ul li { height: 40px; line-height: 40px; }
+	.nav ul li { height: 40px; line-height: 40px; padding: 0px; }
 	.nav ul li { display: inline-block; width: 100px;}
 	section h4 { font-size: 1em; }
 	section h2 { font-size: 1em; }
