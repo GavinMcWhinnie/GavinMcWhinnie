@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Github</title>
+	<link rel="stylesheet" type="text/css" href="../style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+	
+	<header class="title_header">
+		<img src="../images/nepal.jpg" class="background">
+		<span class="title">
+			Gavin McWhinnie
+			<p class="subtitle">student programmer</p>
+			<a href="https://www.github.com/GavinMcWhinnie"><img src="../images/github_logo.png" class="github_logo"></a>
+		</span>
+		<div class="click_to_scroll">▼ scroll down ▼</div>
+	</header>
+	<nav class="nav">
+		<ul>
+			<li><a href="../index.html">Home</a></li>
+			<li><a href="../projects.html">Projects</a></li>
+			<li><a href="../music.html">Music</a></li>
+			<li><a href="../contact.html">Contact</a></li>
+		</ul>
+	</nav>
+	<nav class="nav nav_fixed">
+		<ul>
+			<li><a href="../index.html">Home</a></li>
+			<li><a href="../projects.html">Projects</a></li>
+			<li><a href="../music.html">Music</a></li>
+			<li><a href="../contact.html">Contact</a></li>
+		</ul>
+	</nav>
+	<main>
+		<section style="line-height: 175%;">
+			
+			<h3>Irrationality and Diophantine Approximations:</h3>
+
+
+			<p>
+				In most first year "introduction to pure maths" courses, the real numbers are introduced alongside the topic of irrationality.
+				The rational numbers are introduced, that is the fractions \( \frac{m}{n} \) where \(m\) and \(n\) are integers, as well as the
+				idea that the rational numbers are "densely packed" on the real line - we given two rational numbers we can always find another
+				rational number in between.
+				You can then imagine a line of dots where the dots represent the rational numbers:
+			</p>
+			<center><img src="images/real_line.jpg"></center>
+			<p>
+				However, given that the rationals are densely packed, you can draw a line between each of these lines and the lines between those
+				lines and so on, going on forever. So maybe our diagram should look more like this:
+			</p>
+			<center><img src="images/real_line2.jpg"></center>
+			<p>
+				This raises the question: "Are the rational numbers all the real numbers?". The answer, as you are told is no; there are infinitely
+				many irrational numbers, which are also densely packed on the real line - an popular example is \( \sqrt{2} \), the length of the
+				diagonal of a square of side 1. This is irrational as the famous <a href="https://en.wikipedia.org/wiki/Square_root_of_2#Proof_by_infinite_descent">proof by contradiction</a> shows.
+			</p>
+			<p>
+				This argument of supposing the number which you aim to prove is irrational is actually rational and can be represented in simplest form (as \( \frac{p}{q} \) such that \(p\) and \(q\) are coprime) and then arriving at a contradiction through manipulating the equation/checking divisibility works great for proving roots of non-square integers are irrational - but this technique does not work for other numbers, for example, what about Euler's number \(e\)? 
+			</p>
+			<p>
+				Looking for how to answer this question, you might stumble on an lemma such as the following:
+				<div style="border: 1px solid black; padding: 20px; margin: 10px 0px;">
+					Let \(x \in \mathbb{R} \). Suppose that for every \(c > 0 \) there is a rational number \( \frac{p}{q} \) such that:
+					\[ 0 < \left| x -\frac{p}{q} \right| < \frac{c}{q} \]
+					Then \( x \) is irrational.
+				</div>
+
+				This particularly confused me at first inspection: why can't you find a rational number \( \frac{p}{q} \) approximation of a
+				rational number closer than \( \frac{c}{q} \) for some small values \(c\)? Why can irrationals be approximated well by rationals, but rationals themselves can't?
+			</p>
+			<p>
+				To understand this lemma, we'll approach it through it's contrapositive, which will also answer my initial question.
+				Suppose \(x\) is rational and thus \(x = \frac{a}{b} \) for some integers \(a\) and \(b\).
+				<br>
+				We can plot \(x\) on the real line on a diagram with small notches with distance \( \frac{1}{b} \) between them:
+				<center><img src="images/real_line_x.jpg"></center>
+				We can also plot \( \frac{p}{q} \) on the real line on a similar diagram with distance \( \frac{1}{q} \) between them:
+				<center><img src="images/real_line_pq.jpg"></center>
+				To compare our approximation, \( \frac{p}{q} \), with our rational number \(x = \frac{a}{b}\), we can plot both on the real line with notches every \( \frac{1}{bq}\)th distance.
+				<center><img src="images/real_line_bq.jpg"></center>
+				Since we know our approximation cannot exactly equal \(x\), they cannot be on the same notch on our diagram. Thus the distance between our approximation and \(x\) must be greater than or equal to \( \frac{1}{bq}\). We can write this formally as:
+				\[ \left| x -\frac{p}{q} \right| = \left| \frac{a}{b} -\frac{p}{q} \right| \geq \frac{1}{bq} \]
+				<br>
+				If we write \(c = \frac{1}{b} \), we have found a value of \(c\) such that we can't approximate \(x\) by a rational \(\frac{p}{q}\) closer than a distance of \( \frac{c}{q} \). The answer to our question is clearer: you can't approximate rationals very well by rationals themselves as they are inherently evenly-spaced, and we can divide the real line up into small enough notches to separate them  such that the premise in our lemma doesn't hold. Irrationals don't have this problem as they don't conform to this even spacing - coloquially, they can be as close to our rational "notches" as they like, without touching them.
+				
+			</p>
+			<p>
+				We can use this lemma to prove \(e\) is irrational, since a finite number of terms in the infinite series
+				\( \sum_{n=0}^{\infty} \frac{1}{n!} \) approximates \(e\) very well. This is slightly tricky to prove, but can be done. It is worth noting, however, not every number can be proven irrational in this way as the converse of this is not true.
+			</p>
+			<h4>Diophantine Approximations:</h4>
+			<p>
+				Approximating irrationals with rational numbers as is done above is called <a href="https://en.wikipedia.org/wiki/Diophantine_approximation">Diophantine Approximation</a>.
+				<br>
+				A Diophantine Approximation of a number \(x\) to order \(s\) is the rational number \( \frac{m}{n} \) such that:
+				\[ 0 < \left| x- \frac{m}{n} \right| < \frac{1}{n^s} \]
+				<br>
+				(To be continued)
+			</p>
+
+
+		</section>
+		<footer class="footer">
+			<br><br>Last updated: Mar 2021
+
+		</footer>
+	</main>
+	
+
+	<!--- MathJax -->
+	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+	<script type="text/javascript" src="../scripts.js"></script>
+
+</body>
+</html>
+
+
