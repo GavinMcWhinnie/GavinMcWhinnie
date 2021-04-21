@@ -13,6 +13,12 @@ window.onresize = function () {
 	nav_offset = nav.offsetTop;
 }
 
+window.onload = function () {
+    window.scrollTo(0,0);
+	hide_fixed_nav();
+	nav_offset = nav.offsetTop;
+}
+
 var show_fixed_nav = function () {
 	nav_fixed.style.display = 'block';
 }
